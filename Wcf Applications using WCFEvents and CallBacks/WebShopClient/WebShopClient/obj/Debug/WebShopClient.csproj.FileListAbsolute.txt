@@ -1,0 +1,30 @@
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week3\WebShopClient\WebShopClient\bin\Debug\WebShopClient.exe.config
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week3\WebShopClient\WebShopClient\obj\Debug\WebShopClient.csprojResolveAssemblyReference.cache
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week3\WebShopClient\WebShopClient\obj\Debug\WebShopClient.Form1.resources
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week3\WebShopClient\WebShopClient\obj\Debug\WebShopClient.Properties.Resources.resources
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week3\WebShopClient\WebShopClient\obj\Debug\WebShopClient.csproj.GenerateResource.Cache
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week3\WebShopClient\WebShopClient\bin\Debug\WebShopClient.exe
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week3\WebShopClient\WebShopClient\bin\Debug\WebShopClient.pdb
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week3\WebShopClient\WebShopClient\obj\Debug\WebShopClient.exe
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week3\WebShopClient\WebShopClient\obj\Debug\WebShopClient.pdb
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\week4\WebShopClient\WebShopClient\obj\Debug\WebShopClient.exe
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\week4\WebShopClient\WebShopClient\obj\Debug\WebShopClient.pdb
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\week4\WebShopClient\WebShopClient\obj\Debug\WebShopClient.csprojResolveAssemblyReference.cache
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\week4\WebShopClient\WebShopClient\obj\Debug\WebShopClient.Form1.resources
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\week4\WebShopClient\WebShopClient\obj\Debug\WebShopClient.Properties.Resources.resources
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\week4\WebShopClient\WebShopClient\obj\Debug\WebShopClient.csproj.GenerateResource.Cache
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\week4\WebShopClient\WebShopClient\bin\Debug\WebShopClient.exe
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\week4\WebShopClient\WebShopClient\bin\Debug\WebShopClient.pdb
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\week4\WebShopClient\WebShopClient\bin\Debug\WebShopClient.exe.config
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week5\WebShopClient\WebShopClient\bin\Debug\WebShopClient.exe.config
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week5\WebShopClient\WebShopClient\obj\Debug\WebShopClient.exe
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week5\WebShopClient\WebShopClient\obj\Debug\WebShopClient.pdb
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week5\WebShopClient\WebShopClient\bin\Debug\WebShopClient.exe
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week5\WebShopClient\WebShopClient\bin\Debug\WebShopClient.pdb
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week5\WebShopClient\WebShopClient\obj\Debug\WebShopClient.csprojResolveAssemblyReference.cache
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week5\WebShopClient\WebShopClient\obj\Debug\WebShopClient.Form1.resources
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week5\WebShopClient\WebShopClient\obj\Debug\WebShopClient.Properties.Resources.resources
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week5\WebShopClient\WebShopClient\obj\Debug\WebShopClient.csproj.GenerateResource.Cache
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\Block 1\CSA\Assignments\Solutions\Week5\WebShopClient\WebShopClient\bin\Debug\WebShopClient.exe.config
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\Block 1\CSA\Assignments\Solutions\Week5\WebShopClient\WebShopClient\obj\Debug\WebShopClient.exe
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\Block 1\CSA\Assignments\Solutions\Week5\WebShopClient\WebShopClient\obj\Debug\WebShopClient.pdb

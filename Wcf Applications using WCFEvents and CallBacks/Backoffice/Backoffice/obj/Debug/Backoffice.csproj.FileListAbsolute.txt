@@ -1,0 +1,24 @@
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week3\Backoffice\Backoffice\bin\Debug\Backoffice.exe.config
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week3\Backoffice\Backoffice\bin\Debug\Backoffice.exe
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week3\Backoffice\Backoffice\bin\Debug\Backoffice.pdb
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week3\Backoffice\Backoffice\obj\Debug\Backoffice.csprojResolveAssemblyReference.cache
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week3\Backoffice\Backoffice\obj\Debug\Backoffice.Form1.resources
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week3\Backoffice\Backoffice\obj\Debug\Backoffice.Properties.Resources.resources
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week3\Backoffice\Backoffice\obj\Debug\Backoffice.csproj.GenerateResource.Cache
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week3\Backoffice\Backoffice\obj\Debug\Backoffice.exe
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week3\Backoffice\Backoffice\obj\Debug\Backoffice.pdb
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\week4\Backoffice\Backoffice\bin\Debug\Backoffice.exe.config
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\week4\Backoffice\Backoffice\obj\Debug\Backoffice.exe
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\week4\Backoffice\Backoffice\obj\Debug\Backoffice.pdb
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week5\Backoffice\Backoffice\bin\Debug\Backoffice.exe.config
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week5\Backoffice\Backoffice\obj\Debug\Backoffice.exe
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week5\Backoffice\Backoffice\obj\Debug\Backoffice.pdb
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week5\Backoffice\Backoffice\obj\Debug\Backoffice.csprojResolveAssemblyReference.cache
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week5\Backoffice\Backoffice\obj\Debug\Backoffice.Form1.resources
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week5\Backoffice\Backoffice\obj\Debug\Backoffice.Properties.Resources.resources
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week5\Backoffice\Backoffice\obj\Debug\Backoffice.csproj.GenerateResource.Cache
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week5\Backoffice\Backoffice\bin\Debug\Backoffice.exe
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week5\Backoffice\Backoffice\bin\Debug\Backoffice.pdb
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\Block 1\CSA\Assignments\Solutions\Week5\Backoffice\Backoffice\bin\Debug\Backoffice.exe.config
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\Block 1\CSA\Assignments\Solutions\Week5\Backoffice\Backoffice\obj\Debug\Backoffice.exe
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\Block 1\CSA\Assignments\Solutions\Week5\Backoffice\Backoffice\obj\Debug\Backoffice.pdb

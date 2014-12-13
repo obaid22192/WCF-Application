@@ -1,0 +1,11 @@
+C:\SOAwithWCFandLINQ\Projects\WCFBroadcastorSolution\BroadcastorService\bin\BroadcastorService.dll.config
+C:\SOAwithWCFandLINQ\Projects\WCFBroadcastorSolution\BroadcastorService\bin\BroadcastorService.dll
+C:\SOAwithWCFandLINQ\Projects\WCFBroadcastorSolution\BroadcastorService\bin\BroadcastorService.pdb
+C:\SOAwithWCFandLINQ\Projects\WCFBroadcastorSolution\BroadcastorService\obj\Debug\BroadcastorService.csprojResolveAssemblyReference.cache
+C:\SOAwithWCFandLINQ\Projects\WCFBroadcastorSolution\BroadcastorService\obj\Debug\BroadcastorService.dll
+C:\SOAwithWCFandLINQ\Projects\WCFBroadcastorSolution\BroadcastorService\obj\Debug\BroadcastorService.pdb
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week5\WCFBroadcastorSolution\WCFBroadcastorSolution\BroadcastorService\bin\BroadcastorService.dll.config
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week5\WCFBroadcastorSolution\WCFBroadcastorSolution\BroadcastorService\bin\BroadcastorService.dll
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week5\WCFBroadcastorSolution\WCFBroadcastorSolution\BroadcastorService\bin\BroadcastorService.pdb
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week5\WCFBroadcastorSolution\WCFBroadcastorSolution\BroadcastorService\obj\Debug\BroadcastorService.dll
+C:\Users\Obaid92\Documents\Fontys\fontys\Sem4\CSA\Assignments\Solutions\Week5\WCFBroadcastorSolution\WCFBroadcastorSolution\BroadcastorService\obj\Debug\BroadcastorService.pdb

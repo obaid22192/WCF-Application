@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:i0="MyWebshopContract" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Cwebshop" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="NetTcpBinding_IWebshop_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:WindowsTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                  <msf:ProtectionLevel>EncryptAndSign</msf:ProtectionLevel>
+                </msf:WindowsTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="NetTcpBinding_IBackoffice_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:WindowsTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                  <msf:ProtectionLevel>EncryptAndSign</msf:ProtectionLevel>
+                </msf:WindowsTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:import namespace="MyWebshopContract" location="" />
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="MyWebshopContract" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/MyWebshopContract" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IBackoffice_Subscribe_InputMessage">
+    <wsdl:part name="parameters" element="tns:Subscribe" />
+  </wsdl:message>
+  <wsdl:message name="IBackoffice_Subscribe_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SubscribeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBackoffice_GetOrderList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOrderList" />
+  </wsdl:message>
+  <wsdl:message name="IBackoffice_GetOrderList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOrderListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBackoffice_ShipOrder_InputMessage">
+    <wsdl:part name="parameters" element="tns:ShipOrder" />
+  </wsdl:message>
+  <wsdl:message name="IBackoffice_ShipOrder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ShipOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBackoffice_OnEvent_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:OnEvent" />
+  </wsdl:message>
+  <wsdl:portType name="IBackoffice">
+    <wsdl:operation name="Subscribe">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBackoffice/Subscribe" message="tns:IBackoffice_Subscribe_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBackoffice/SubscribeResponse" message="tns:IBackoffice_Subscribe_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBackoffice/GetOrderList" message="tns:IBackoffice_GetOrderList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBackoffice/GetOrderListResponse" message="tns:IBackoffice_GetOrderList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ShipOrder">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBackoffice/ShipOrder" message="tns:IBackoffice_ShipOrder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBackoffice/ShipOrderResponse" message="tns:IBackoffice_ShipOrder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OnEvent">
+      <wsdl:output wsaw:Action="http://tempuri.org/IBackoffice/OnEvent" message="tns:IBackoffice_OnEvent_OutputCallbackMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="NetTcpBinding_IWebshop" type="i0:IWebshop">
+    <wsp:PolicyReference URI="#NetTcpBinding_IWebshop_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetData">
+      <soap12:operation soapAction="MyWebshopContract/IWebshop/GetData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <soap12:operation soapAction="MyWebshopContract/IWebshop/GetDataUsingDataContract" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWebshopName">
+      <soap12:operation soapAction="MyWebshopContract/IWebshop/GetWebshopName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductList">
+      <soap12:operation soapAction="MyWebshopContract/IWebshop/GetProductList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductInfo">
+      <soap12:operation soapAction="MyWebshopContract/IWebshop/GetProductInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuyProduct">
+      <soap12:operation soapAction="MyWebshopContract/IWebshop/BuyProduct" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="productShipped">
+      <soap12:operation soapAction="MyWebshopContract/IWebshop/productShipped" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NetTcpBinding_IBackoffice" type="tns:IBackoffice">
+    <wsp:PolicyReference URI="#NetTcpBinding_IBackoffice_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="Subscribe">
+      <soap12:operation soapAction="http://tempuri.org/IBackoffice/Subscribe" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderList">
+      <soap12:operation soapAction="http://tempuri.org/IBackoffice/GetOrderList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShipOrder">
+      <soap12:operation soapAction="http://tempuri.org/IBackoffice/ShipOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OnEvent">
+      <soap12:operation soapAction="http://tempuri.org/IBackoffice/OnEvent" style="document" />
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Cwebshop">
+    <wsdl:port name="NetTcpBinding_IWebshop" binding="tns:NetTcpBinding_IWebshop">
+      <soap12:address location="net.tcp://localhost:8733/Design_Time_Addresses/webshopservice/Service1/" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://localhost:8733/Design_Time_Addresses/webshopservice/Service1/</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>localhost</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="NetTcpBinding_IBackoffice" binding="tns:NetTcpBinding_IBackoffice">
+      <soap12:address location="net.tcp://localhost:8733/Design_Time_Addresses/webshopservice/Service1/" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://localhost:8733/Design_Time_Addresses/webshopservice/Service1/</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>localhost</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
